@@ -1,0 +1,97 @@
+/* 
+font-family: 'Fira Code', monospace;
+font-family: 'Press Start 2P', cursive;
+*/
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    /* height: 80px; */
+    /* background: #7C5E99; */
+    background: #ba1f33;
+    border-bottom: 10px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    text-shadow: 5px 5px 0px #000000;
+}
+
+header .avatar {
+    width: 64px;
+}
+.container {
+    /* width: 1440px; */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* header .container {
+    display: flex;
+    justify-content: space-between;
+} */
+header a {
+    font-family: Fira Code, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    display: inline-flex;
+    align-items: center;
+}
+header a::before {
+    content: "";
+    background: #F2994A;
+    width: 8px;
+    height: 9px;
+    margin-right: 10px;
+}
+header a#button::before {
+    display: none;
+}
+#button {
+    /* background: #f25a70; */
+    background: #F2994A;
+    box-shadow: 5px 5px 0px #000000;
+    padding: 18px;
+    /* transition: ease-in; */
+    transition: transform .4s, opacity 100ms ease-in-out;
+}
+#button:hover {
+    background: #EB5757;
+    color: #000;
+    transform: scale(1.08);
+    opacity: 0.9;
+}
+
+
+
+
+
+
+/* 
+
+    <header>
+        <div class="container">
+            <div class="logo">img</div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="">Skills</a>
+                        <a href="">Projetos</a>
+                        <a href="">Sobre</a>
+                        <a href="">Contatos</a>
+                    </li>
+                </ul>
+                <button class="download">Download CV</button>
+            </div>
+        </div>
+    </header>
+*/
