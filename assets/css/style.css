@@ -8,8 +8,6 @@ font-family: 'Press Start 2P', cursive;
     padding: 0;
 }
 header {
-    /* height: 80px; */
-    /* background: #7C5E99; */
     background: #ba1f33;
     border-bottom: 10px solid #000;
     display: flex;
@@ -27,18 +25,11 @@ header .avatar {
     width: 64px;
 }
 .container {
-    /* width: 1440px; */
     margin: 0 auto;
     padding: 0 20px;
 }
-/* 
-header .container {
-    display: flex;
-    justify-content: space-between;
-}
-*/
 header a {
-    font-family: Fira Code, Arial, Helvetica, sans-serif;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: #ffffff;
@@ -56,20 +47,6 @@ header a::before {
 }
 header a.button::before {
     display: none;
-}
-.button {
-    font-family: 'Fira Code', monospace;
-    background: #F2994A;
-    box-shadow: 5px 5px 0px #000000;
-    padding: 18px;
-    /* transition: ease-in; */
-    transition: transform .4s, opacity 100ms ease-in-out;
-}
-.button:hover {
-    background: #EB5757;
-    color: #000;
-    transform: scale(1.08);
-    opacity: 0.9;
 }
 
 .banner-area {
@@ -114,17 +91,8 @@ header a.button::before {
     padding: 0 50px;
 }
 .nome-area-bts .button {
-    display: inline-block;
-    text-align: center;
-    color: #000;
-    text-decoration: none;
-    line-height: 60px;
-    font-size: 20px;
-    line-height: 26px;
-    height: 60px;
     background: #BA1F33;
 }
-
 
 
 /* 
