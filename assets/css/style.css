@@ -82,8 +82,76 @@ header .button {
     background: #BA1F33;
 }
 
+.skills {
+    background-color: #f2994a; 
+    padding-top: 50px;
+    padding-bottom: 60px; 
+}
+.titulo-secao {
+    font-family: 'Press Start 2P';
+    font-weight: normal;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+    text-align: center;
+}
+            .skills .container {
+                max-width: 1000px;
+                display: flex;
+                flex-wrap: wrap;
+            }
 
+            .component-skill {
+                width: 50%;
+                display: flex;
+                margin-bottom: 40px;
+            }
+            .component-skill:nth-child(even) {
+                padding-left: 50px;
+            }
+            .component-skill:nth-child(odd) {
+                padding-right: 50px;
+            }
+
+            .component-skill-icone {
+                width: 110px;
+                padding-right: 30px;
+            }
+            .component-skill-barra {
+                flex: 1;
+                padding-top: 10px;
+            }
+            .component-skill-barra h3 {
+                font-family: 'Press Start 2P';
+                font-size: 25px;
+                color: #FFFFFF;
+                margin-bottom: 15px;
+            }
+            .barra-max {
+                height: 35px;
+                width: 100%;
+                border: 5px solid #000;
+                background-color: #fff;
+            }
+            /* .barra-relativa { */
+            .barra-max progress,
+            .barra-max progress::-moz-progress-bar,
+            .barra-max progress::-webkit-progress-bar {
+                background-color: #7c5e99;
+                width: 100%;
+                height: 25px;
+            }
 
 /* 
+
+<div class="component-skill">
+    <div class="component-skill-icone"><img src="" alt=""></div>
+    <div class="component-skill-barra">
+        <h3>skill</h3>
+        <div class="barra-max">
+            <div class="barra-relativa"></div>
+        </div>
+    </div>
+</div>
 
 */
