@@ -82,10 +82,12 @@ header .button {
     background: #BA1F33;
 }
 
-.skills {
-    background-color: #f2994a; 
+.section {
     padding-top: 50px;
     padding-bottom: 60px; 
+}
+.section-skills {
+    background-color: #f2994a; 
 }
 .titulo-secao {
     font-family: 'Press Start 2P';
@@ -95,7 +97,7 @@ header .button {
     margin-bottom: 60px;
     text-align: center;
 }
-            .skills .container {
+            .section-skills .container {
                 max-width: 1000px;
                 display: flex;
                 flex-wrap: wrap;
@@ -119,28 +121,42 @@ header .button {
             }
             .component-skill-barra {
                 flex: 1;
-                padding-top: 10px;
+                padding-top: 5px;
             }
             .component-skill-barra h3 {
                 font-family: 'Press Start 2P';
                 font-size: 25px;
                 color: #FFFFFF;
-                margin-bottom: 15px;
+                margin-bottom: 10px;
             }
             .barra-max {
-                height: 35px;
+                /* height: 35px; */
                 width: 100%;
-                border: 5px solid #000;
-                background-color: #fff;
+                /* border: 5px solid #000; */
             }
+
             /* .barra-relativa { */
-            .barra-max progress,
-            .barra-max progress::-moz-progress-bar,
-            .barra-max progress::-webkit-progress-bar {
-                background-color: #7c5e99;
+            /* .barra-max .progress-bar,
+            .barra-max .progress-bar::-moz-progress-bar,
+            .barra-max .progress-bar::-webkit-progress-bar { */
+
+            .barra-max .progress-bar {
+                background-color: #fff;
+                border: 5px solid #000;
                 width: 100%;
                 height: 25px;
+                height: 40px;
+                box-sizing: border-box; 
             }
+            .barra-max .progress-bar::-moz-progress-bar {
+                background-color: #7c5e99;
+            }
+            .barra-max .progress-bar::-webkit-progress-bar {
+                background-color: #fff;
+            }
+            progress {
+                -webkit-appearance: none;
+              }
 
 /* 
 
