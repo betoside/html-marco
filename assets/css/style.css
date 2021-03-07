@@ -88,6 +88,7 @@ header .button {
 }
 .section-skills {
     background-color: #f2994a; 
+    border-bottom: 10px solid #E0E0E0;
 }
 .titulo-secao {
     font-family: 'Press Start 2P';
@@ -158,16 +159,36 @@ header .button {
                 -webkit-appearance: none;
               }
 
+
+.section-projetos {
+    background: #000000;
+    border-bottom: 10px solid #62C370;
+}
+.section-projetos .container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.section-projetos figure,
+.projeto {
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projeto img {
+    max-width: 100%;
+}
+
+
 /* 
-
-<div class="component-skill">
-    <div class="component-skill-icone"><img src="" alt=""></div>
-    <div class="component-skill-barra">
-        <h3>skill</h3>
-        <div class="barra-max">
-            <div class="barra-relativa"></div>
+    <section class="section section-projetos">
+        <h2 class="titulo-secao">Projetos</h2>
+        <div class="container">
+            <p>nonono nonono</p>
         </div>
-    </div>
-</div>
-
+    </sect
 */
