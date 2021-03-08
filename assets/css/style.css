@@ -245,6 +245,9 @@ header .button {
     position: absolute;
     top: 113px;
 }
+.button-arrow:focus {
+    outline: none;
+}
 .button-arrow .lbl { 
     display: none;
 }
@@ -317,4 +320,63 @@ header .button {
 }
 .node-card.-first .logo {
     background-color: #f25a70;
+}
+
+
+.section-contatos {
+    background-color: #3A4042;
+}
+.fale-body-field {
+    margin-bottom: 20px;
+}
+.fale-body-field label {
+    font-family: 'Fira Code', monospace;
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    display: block;
+}
+.fale-body-field input {
+    background-color: #fff;
+    border: 5px solid #000000;
+    height: 50px;
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+}
+.fale-body-field textarea {
+    background-color: #fff;
+    border: 5px solid #000000;
+    height: 300px;
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+}
+.fale-body-field .bt-enviar {
+    background-color: #F2994A;
+    height: 60px;
+    width: 100%;
+    box-shadow: 5px 5px 0px #000000;
+
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+    background-color: #000;
+}
+footer a {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
